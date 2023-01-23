@@ -165,7 +165,7 @@
 //    Console.WriteLine("Kichiki : " + c);
 //}
 //13-misol
-
+//фчлплсияисьяисяADKGDKAKSDAHDKADAD
 
 
 
