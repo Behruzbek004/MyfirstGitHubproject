@@ -149,6 +149,24 @@
 //    Console.WriteLine(0);
 //}
 //12-misol
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = int.Parse(Console.ReadLine());
+//if (a > b && c > b)
+//{
+//    Console.WriteLine("Kichiki : " + b);
+//}
+//else if (a < b && a < c)
+//{
+//    Console.WriteLine("Kichiki : " + a);
+//}
+//else
+//{
+//    Console.WriteLine("Kichiki : " + c);
+//}
+//13-misol
+
+
 
 
 
