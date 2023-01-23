@@ -165,7 +165,38 @@
 //    Console.WriteLine("Kichiki : " + c);
 //}
 //13-misol
-//фчлплсияисьяисяADKGDKAKSDAHDKADAD
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = int.Parse(Console.ReadLine());
+//if ((a < b && b < c) || ( c < b && b < a ))
+//{
+//    Console.WriteLine("Natija : " + b);
+//}
+//else if ((b < a && a < c) || (c < a && a < b))
+//{
+//    Console.WriteLine("Natija : " + a);
+//}
+//else if ((a < c && c < b) || (b < c && c < a))
+//{
+//    Console.WriteLine("Natija : " + c);
+//} 
+//14-misol
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+if ((a > b && b > c ) || (b > c && c > a) || (b > a && a > c))
+{
+    Console.WriteLine("Natija : " + a);
+} 
+
+
+
+
+
+
+
+
+
 
 
 
