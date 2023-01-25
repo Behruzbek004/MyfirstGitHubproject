@@ -180,14 +180,102 @@
 //{
 //    Console.WriteLine("Natija : " + c);
 //} 
-//14-misol
-int a = int.Parse(Console.ReadLine());
-int b = int.Parse(Console.ReadLine());
-int c = int.Parse(Console.ReadLine());
-if ((a > b && b > c ) || (b > c && c > a) || (b > a && a > c))
-{
-    Console.WriteLine("Natija : " + a);
-} 
+//14-misol chiqmadi
+//20 -misol
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = int.Parse(Console.ReadLine());
+////int d = int.Parse(Console.ReadLine());
+//if (Math.Abs(a - b) > Math.Abs(a - c))
+//{
+//    Console.WriteLine("YAQIN NUQTA: " + b + "\nmasofasi: " + Math.Abs(a - c));
+//}
+//else if (Math.Abs(a - b) < Math.Abs(a - c))
+//{
+//    Console.WriteLine("YAQIN NUQTA: " + b + "\nmasofasi: " + Math.Abs(a - b));
+//}
+//else if (Math.Abs(a - b) == Math.Abs(a - c))
+//{
+//    Console.WriteLine("yaqin nuqta: " + b + " " + c);
+//}
+//else if (a == b && b == c) 
+//{
+//    Console.WriteLine("nuqtalar ustma ust tushadi");
+//}
+// if 24 - misol
+//double x = double.Parse(Console.ReadLine());
+//if(x > 0)
+//{
+//    Console.WriteLine("f(x) = " + (2 * (Math.Sin( x))));
+//}
+//else if(x <=0)
+//{
+//    Console.WriteLine("f(x) = " + (x - 2));
+//}
+// if 25 - misol
+//double x = double.Parse(Console.ReadLine());
+//if((x < -2)  (x > 2))
+//        {
+//    Console.WriteLine("f(x) = " + (2 * x));
+//}
+//else
+//{
+//    Console.WriteLine("f(x) = " + (-3 * x));
+//}
+// if 26 - misol
+//double x = double.Parse(Console.ReadLine());
+//if(x <= 0)
+//{
+//    Console.WriteLine("f(x) = " + (-x));
+//}
+//else if((0 < x) && (x < 2))
+//{
+//    Console.WriteLine("f(x) = " + Math.Pow(2, x));
+//}
+//else if(x >= 2)
+//{
+//    Console.WriteLine("f(x) = " + 4);
+//}
+// if 26 - misol
+//double x = double.Parse(Console.ReadLine());
+//if(x < 0)
+//{
+//    Console.WriteLine("f(x) = " + 0);
+//}
+//27-misol
+//int x = int.Parse(Console.ReadLine());
+//if (x < 0)
+//{
+//    Console.WriteLine(0);
+//}
+//else if ((x <= 0 && x < 1) || (x <= 2 && x < 3))
+//{
+//    Console.WriteLine(1);
+//}
+//else if ((x <= 1 && x < 2) || (x <= 3 && x < 4))
+//{
+//    Console.WriteLine(-1);
+//}
+//if 28 -misol
+    //int year = int.Parse(Console.ReadLine());
+    //if((year % 4 == 0 && year % 100 != 0)  (year % 400 == 0))
+    //{
+    //    Console.WriteLine("Kabisa yili, bu yilda 366 kun bor");
+    //}
+    // if 29 -misol
+    //int a = int.Parse(Console.ReadLine());
+    //if (a > 0)
+    //{
+    //    Console.WriteLine("musbat toq son = " + ((a / 2 == 1)));
+    //}
+    //else if (a < 0)
+    //{
+    //    Console.WriteLine("manfiy juft son = " + (a % 2 == 0));
+    //}
+    //else if (a == 0)
+    //{
+    //    Console.WriteLine( 0);
+    //}
 
 
 
@@ -269,4 +357,5 @@ if ((a > b && b > c ) || (b > c && c > a) || (b > a && a > c))
 
 
 
-goto Behruz;
+
+    goto Behruz;
