@@ -257,26 +257,47 @@
 //    Console.WriteLine(-1);
 //}
 //if 28 -misol
-    //int year = int.Parse(Console.ReadLine());
-    //if((year % 4 == 0 && year % 100 != 0)  (year % 400 == 0))
-    //{
-    //    Console.WriteLine("Kabisa yili, bu yilda 366 kun bor");
-    //}
-    // if 29 -misol
-    //int a = int.Parse(Console.ReadLine());
-    //if (a > 0)
-    //{
-    //    Console.WriteLine("musbat toq son = " + ((a / 2 == 1)));
-    //}
-    //else if (a < 0)
-    //{
-    //    Console.WriteLine("manfiy juft son = " + (a % 2 == 0));
-    //}
-    //else if (a == 0)
-    //{
-    //    Console.WriteLine( 0);
-    //}
+//int year = int.Parse(Console.ReadLine());
+//if((year % 4 == 0 && year % 100 != 0)  (year % 400 == 0))
+//{
+//    Console.WriteLine("Kabisa yili, bu yilda 366 kun bor");
+//}
+// if 29 -misol
+//int a = int.Parse(Console.ReadLine());
+//if (a > 0)
+//{
+//    Console.WriteLine("musbat toq son = " + ((a / 2 == 1)));
+//}
+//else if (a < 0)
+//{
+//    Console.WriteLine("manfiy juft son = " + (a % 2 == 0));
+//}
+//else if (a == 0)
+//{
+//    Console.WriteLine( 0);
+//}
+//switch Case 5-misol
+//Console.Write("a = "); double a = double.Parse(Console.ReadLine());
+//char temp = char.Parse(Console.ReadLine());
+//Console.Write("b = "); double b = double.Parse(Console.ReadLine());
 
+//switch (temp)
+//{
+//    case '+':
+//        Console.WriteLine(a + " + " + b + " = " + (a + b));
+//        break;
+//    case '-':
+//        Console.WriteLine("a - b = " + (a - b));
+//        break;
+//    case '*':
+//        Console.WriteLine("a * b = " + (a * b));
+//        break;
+//    case '/':
+//        Console.WriteLine("a / b = " + (a / b));
+//        break;
+//    default:
+//        Console.WriteLine("bunaqa amal yuq"); break;
+//}
 
 
 
@@ -358,4 +379,5 @@
 
 
 
-    goto Behruz;
+
+goto Behruz;
